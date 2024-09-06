@@ -1,0 +1,27 @@
+*{justify-content: center;}
+
+.mynav{
+    display: flex;
+}
+.background{
+    background-image:url('images/Screenshot\ 2024-09-04\ 140054.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+.navy{
+    border: 2px solid rgb(255, 255, 255);
+    background-color: skyblue;
+    display: flex;
+    color: rgb(31, 31, 167);
+    flex-grow: 1;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
